@@ -1,0 +1,33 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 320px;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+textarea {
+  width: 180px;
+  vertical-align: middle;
+}
+
+button {
+  max-width: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
+header {
+  background-color: cadetblue;
+  padding: 1rem 2rem;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  max-width: 60%;
+  list-style: none;
+}

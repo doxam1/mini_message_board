@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head.ejs', {title: 'msg' }) %>
+
+    <body>
+        <%- include('../partials/header.ejs') %>
+            <h3>
+                <%= messages[msgIndex].text %>
+            </h3>
+
+            <h4>from: <%= messages[msgIndex].user %>
+            </h4>
+
+            <h5>added: <%= messages[msgIndex].added %>
+            </h5>
+
+
+    </body>
+
+</html>

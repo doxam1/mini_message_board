@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head', {title: 'New message' }) %>
+
+    <body>
+        <%- include('../partials/header') %>
+            <h2>Send new massage</h2>
+            <form method="POST" action="/new">
+                <label for="senderName"> from:
+                    <input type="text" placeholder="enter name" id="senderName" name="senderName">
+                </label>
+                <label for="message"> from:
+                    <textarea type="text" placeholder="enter your massage" name="message" id="message" rows="4"
+                        style="resize: none;"></textarea>
+                </label>
+                <button type="submit"> Send </button>
+            </form>
+    </body>
+
+</html>
